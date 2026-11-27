@@ -1,19 +1,22 @@
 {
-  "name": "bank",
+  "name": "bank-webapp",
   "version": "1.0.0",
-  "main": "submit.js",
+  "description": "This project's purpose is to understand working of a 3-tier application being containerized and run all-together independently with database hosted on MySQL servers. \r =======\r # bank\r A simple bank application to utilize bandwidth of DevOps tech.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suyash-Kaul/bank-webapp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "body-parser": "^1.20.3",
-    "cors": "^2.8.5",
-    "dotenv": "^18.0.10",
-    "express": "^4.21.0",
-    "mysql": "^2.18.1"
-  }
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Suyash-Kaul/bank-webapp/issues"
+  },
+  "homepage": "https://github.com/Suyash-Kaul/bank-webapp#readme"
 }
