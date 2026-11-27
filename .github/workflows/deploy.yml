@@ -14,7 +14,7 @@ env:
   ECS_CLUSTER: bank-cluster
   ECS_SERVICE: bank-service
   CONTAINER_NAME: bank-container
-  TASK_DEFINITION: .aws/bank-task.json
+  TASK_DEFINITION: .aws/task-definition.json
 
 jobs:
   deploy:
